@@ -1,0 +1,107 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #2d3248;
+  font-weight: 700;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main {
+  background: #19a2ae;
+}
+
+.main .card {
+  width: 21.875rem;
+  height: 23.75rem;
+  background: white;
+  border-radius: 12px;
+}
+
+.main .card .bg-image {
+  background-image: url("/images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  border-radius: 12px 12px 0 0;
+  height: 140px;
+  width: 100%;
+}
+
+.main .card .profile .profile-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -44px;
+}
+
+.main .card .profile img {
+  border-radius: 50%;
+  border: 5px white solid;
+}
+
+.main .card .profile .profile-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 22px;
+}
+
+.main .card .profile .profile-data .age,
+.main .card .profile .profile-data .city {
+  font-weight: 400;
+  color: #6a6f81;
+}
+
+.main .card .profile .profile-data .city {
+  margin-top: 1rem;
+}
+
+.main .card .profile .stats {
+  border-top: 1px solid #e8e9ec;
+  margin-top: 32px;
+}
+
+.main .card .profile .stats .media-stats {
+  width: 249px;
+  height: 40px;
+  margin: 1.5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .card .profile .stats .media-stats .content > .media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .card .profile .stats .media-stats .content > .type {
+  font-weight: 400;
+  color: #6a6f81;
+  margin-top: 14px;
+}
+/*# sourceMappingURL=style.css.map */
